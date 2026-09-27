@@ -1,0 +1,7 @@
+site_name: Targenix guides
+site_url: https://targenix-guides.readthedocs.io/
+site_description: Practical guides for businesses that sell through Facebook and Instagram ads, from the team behind Targenix — free AI automation.
+repo_url: https://github.com/Xuseyinoff/targenix-guides
+theme: readthedocs
+nav:
+  - Speed to lead: index.md
