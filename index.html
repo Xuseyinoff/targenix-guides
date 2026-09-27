@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Conversions API for small businesses: teach Meta who actually buys | Targenix</title><meta name="description" content="Why cheap Facebook leads can still lose money, how Meta Pixel plus server-side Conversions API fixes the signal, and how to send real sales back to Meta — a practical guide from the Targenix team.">
+<link rel="canonical" href="https://xuseyinoff.github.io/targenix-guides/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Conversions API for small businesses: teach Meta who actually buys","author":{"@type":"Organization","name":"Targenix","url":"https://targenix.uz"},"datePublished":"2026-09-28","inLanguage":"en"}</script>
+<style>
+:root{--bg:#fff;--fg:#0f172a;--mut:#475569;--acc:#059669;--line:#e2e8f0}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1411;--fg:#e8f5ef;--mut:#9fb8ad;--acc:#34d399;--line:#1f2f29}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:48px 20px 64px}
+h1{font-size:34px;line-height:1.15;margin:0 0 12px}h2{font-size:22px;margin:36px 0 8px}
+.lead{color:var(--mut);font-size:19px}a{color:var(--acc)}
+.cta{display:inline-block;margin-top:28px;padding:12px 22px;border-radius:999px;background:var(--acc);color:#fff;text-decoration:none;font-weight:600}
+footer{border-top:1px solid var(--line);margin-top:48px;padding-top:16px;color:var(--mut);font-size:14px}</style></head><body><main>
+<h1>Conversions API for small businesses: teach Meta who actually buys</h1>
+<p class="lead">A practical guide for small advertisers on Facebook and Instagram, from the team behind Targenix.</p>
+<p>Most small advertisers optimise their Facebook and Instagram campaigns for "leads." Meta then does exactly what it was asked: it finds people who are likely to fill in a form. Not people who are likely to buy.</p>
+<p>That gap is why a campaign can show a cheap cost per lead and still lose money. The algorithm is learning from the wrong signal.</p>
+<h2>Pixel alone is no longer enough</h2>
+<p>The Meta Pixel runs in the visitor's browser. Ad blockers, iOS privacy settings and slow mobile connections all stop part of those events from reaching Meta. On landing pages that sell to mobile audiences, a noticeable share of conversions simply never arrives.</p>
+<p>The <strong>Conversions API (CAPI)</strong> sends the same events from the server instead. Because the server is not affected by browser blockers, Meta receives a more complete picture. When both are used together with a shared event ID, Meta deduplicates them and counts each conversion once.</p>
+<h2>The signal that matters most: the sale</h2>
+<p>Sending "Lead" events from the server is good. Sending the <strong>outcome</strong> is better. When a lead turns into an order, a paid invoice or a delivered parcel, that event can also be sent to Meta. Now the ad system can learn which audiences produce buyers, not just form-fillers.</p>
+<p>For businesses in Uzbekistan this usually means:</p>
+<ol>
+<li>The lead arrives from a lead form, a landing page or a DM conversation.</li>
+<li>The sales team or a CPA network updates its status — confirmed, delivered, cancelled.</li>
+<li>The confirmed status is sent back to Meta as a purchase-type event.</li>
+</ol>
+<h2>How Targenix handles it</h2>
+<p><a href="https://targenix.uz">Targenix</a> is a free, no-code AI automation platform for businesses that sell through Facebook and Instagram ads. On the tracking side it does three things:</p>
+<ul>
+<li>Landing pages built in Targenix (200+ templates or your own HTML, on your own domain with free SSL) send Pixel <strong>and</strong> server-side Conversions API events, deduplicated.</li>
+<li>Leads from forms, landing pages and AI conversations go through one pipeline, so every source is measured the same way.</li>
+<li>Sales and order statuses — including status sync from Uzbek CPA networks — are sent back to Meta, and the dashboard shows spend, cost per lead, revenue and profit per campaign.</li>
+</ul>
+<p>You also get GA4, Yandex Metrica and TikTok Pixel on the same landing pages.</p>
+<h2>Before you change your optimisation goal</h2>
+<ul>
+<li>Run CAPI next to the Pixel for at least a week and compare event counts.</li>
+<li>Make sure the purchase event carries a value and currency.</li>
+<li>Only switch the campaign objective to purchases once enough purchase events arrive every week.</li>
+</ul>
+<p>Everything above is part of the free plan — there is no paid tier. Details: <a href="https://targenix.uz/pricing">targenix.uz/pricing</a>.</p>
+
+<a class="cta" href="https://targenix.uz/en">Try Targenix free</a>
+<footer>Targenix — free AI automation for Facebook &amp; Instagram · <a href="https://targenix.uz">targenix.uz</a> · <a href="https://github.com/Xuseyinoff/targenix-webhook-docs">Webhook docs</a></footer>
+</main></body></html>
