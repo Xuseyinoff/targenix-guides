@@ -1,5 +1,7 @@
 # Speed to lead: why the first five minutes decide a Facebook lead
 
+![Speed to lead: the first five minutes decide a Facebook lead — Targenix](img/cover.png)
+
 Every media buyer in Tashkent has heard the same complaint from a sales team: "the leads are bad." Very often the leads are fine. They are simply old by the time anyone calls.
 
 A person who fills in a Facebook or Instagram lead form is thinking about your product for a few minutes. After that they are back in their feed, watching a competitor's ad, or answering a message from a friend. When your operator calls two hours later, the person barely remembers leaving a number. The call goes to voicemail, or it turns into "I will think about it."
@@ -22,13 +24,13 @@ Removing those steps is not complicated. The lead form sends an event the moment
 - a **CRM** such as Bitrix24, amoCRM/Kommo or HubSpot, with the ad and campaign name attached;
 - a **Google Sheet** for small teams that do not use a CRM yet.
 
-With [Targenix](https://targenix.uz) this happens on average in under a second, to every connected destination at once. If a destination is down, the delivery is retried automatically and shown in a log, so a lead is never silently lost.
+With [Targenix](https://targenix.uz/en) this happens on average in under a second, to every connected destination at once — any of 100+ apps. If a destination is down, the delivery is retried automatically and shown in a log, so a lead is never silently lost.
 
 ## Not every lead fills in a form
 
 A growing share of buyers never touch the form. They write "price?" under the ad or send a DM. These conversations are leads too, and they go cold even faster than form submissions, because the person expects a chat-speed answer.
 
-This is where AI helps. Targenix answers ad comments with a unique, product-aware reply and continues the conversation in Instagram Direct or Messenger. The AI sales agent answers questions about price and delivery, asks for a phone number and creates a lead in the same CRM or Telegram group. The operator starts the call with context instead of a cold number.
+This is where AI helps. The Targenix AI sales agent works 24/7 in ad comments, Instagram Direct and Messenger: it answers questions about price and delivery from the business's own knowledge — its texts, website pages and catalog — asks for a phone number and creates a lead in the same CRM or Telegram group. Hard questions go to a person. The operator starts the call with context instead of a cold number.
 
 ## A simple checklist
 
@@ -37,8 +39,17 @@ This is where AI helps. Targenix answers ad comments with a unique, product-awar
 - Treat comments and DMs as leads, not as "social media."
 - Send a test lead before you launch a campaign, not after the first complaint.
 
-Targenix is free — one plan, 0 UZS per month, AI included — and setup takes about five minutes without code. The full feature list is at [targenix.uz/pricing](https://targenix.uz/pricing).
+## Targenix today
+
+Targenix is one AI platform from ad click to sale, and it is free — no subscription, no card, AI included. Setup takes about five minutes without code. In one account:
+
+- leads from forms and landing pages in Telegram, a CRM or Google Sheets in under a second, through any of 100+ apps;
+- a 24/7 AI sales agent for comments and DMs in Instagram and Facebook;
+- Telegram control: loss alerts with a Pause button and a daily profit report;
+- an automation canvas, a landing page builder with 200+ templates and ad and profit analytics.
+
+Read more: [Telegram control](https://targenix.uz/en/features/telegram-bot) · [AI sales agent](https://targenix.uz/en/features/ai-sales-agent) · [100+ apps](https://targenix.uz/en/integrations)
 
 ---
 
-More from Targenix: [Conversions API guide](https://xuseyinoff.github.io/targenix-guides/) · [Pricing (free)](https://targenix.uz/pricing) · [Comparison with Zapier, Make, ManyChat](https://targenix.uz/tools)
+More from Targenix: [Conversions API guide](https://xuseyinoff.github.io/targenix-guides/) · [Comparison with Zapier, Make, ManyChat](https://targenix.uz/en/tools) · [Targenix in English](https://targenix.uz/en)
